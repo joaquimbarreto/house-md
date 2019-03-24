@@ -55,7 +55,7 @@
   left: 410px;
   top: 0px;
 
-background: #BDFACB;
+  background: #bdfacb;
 }
 
 .Main {
@@ -66,7 +66,7 @@ background: #BDFACB;
   right: 0px;
   top: 151px;
   bottom: 0px;
-  background: #C1D7F8;
+  background: #c1d7f8;
 }
 
 .Sidebar {
@@ -76,7 +76,7 @@ background: #BDFACB;
   left: 0px;
   right: 150px;
   top: 151px;
-  background: url(sidebar-background.jpg);
+  background: url(Images/sidebar-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -137,4 +137,3 @@ background: #BDFACB;
   left: 420px;
   top: 5px;
 }
-
