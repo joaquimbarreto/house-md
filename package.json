@@ -1,5 +1,13 @@
 {
   "name": "house-md",
-  "private": true,
-  "dependencies": {}
+  "license": "MIT",
+  "engines": {
+    "node": "10.15.0",
+    "yarn": "1.15.2.0"
+  },
+  "scripts": {
+    "build": "yarn --cwd client install && yarn --cwd client build",
+    "deploy": "cp -a client/build/. public/",
+    "heroku-postbuild": "yarn build && yarn deploy"
+  }
 }
